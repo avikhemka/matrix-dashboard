@@ -2,9 +2,9 @@
 websocket_url = xxx
 
 [OWM]
-token = xxx
-lat = 0.0
-lon = 0.0
+token = bf78836aec2b3333621ea42f7f7bde79
+lat = 22.306950
+lon = 114.186170
 
 [Spotify]
 client_id = xxx
