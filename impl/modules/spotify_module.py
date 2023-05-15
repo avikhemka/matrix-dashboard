@@ -11,7 +11,7 @@ class SpotifyModule:
             client_id = config['Spotify']['client_id']
             client_secret = config['Spotify']['client_secret']
             redirect_uri = config['Spotify']['redirect_uri']
-            if client_id is not "" and client_secret is not "" and redirect_uri is not "":
+            if client_id != "" and client_secret != "" and redirect_uri != "":
                 try:
                     os.environ["SPOTIPY_CLIENT_ID"] = client_id
                     os.environ["SPOTIPY_CLIENT_SECRET"] = client_secret
